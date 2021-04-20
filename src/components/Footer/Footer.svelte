@@ -1,7 +1,7 @@
-<div class="navbar">Carleton Computer Science Society</div>
+<div class="footer">Carleton Computer Science Society</div>
 
 <style>
-    .navbar{
+    .footer{
         color: white;
         width: 100%;
         min-height: 4.5rem;
