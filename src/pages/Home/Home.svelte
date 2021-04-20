@@ -11,16 +11,16 @@
 </div>
 
 <style>
-	.header-wrap {
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-    }
-    
     .home-page {
         display:flex;
         flex-direction: column;
         justify-content: space-between;
         min-height: 100vh;
     }
+
+    .header-wrap {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+    }  
 </style>
