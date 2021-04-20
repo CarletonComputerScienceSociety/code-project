@@ -9,6 +9,6 @@
   controls="{false}"
   renderer="svg"
   background="transparent"
-  height="{600}"
-  width="{600}"
+  height="{700}"
+  width="{700}"
 />
