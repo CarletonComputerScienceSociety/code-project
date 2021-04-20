@@ -1,16 +1,18 @@
 # Code Challenge
 
+This is the repository for the code challenge client app.
+
 # Start
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn run dev
 ```
 
 # Test
 
 ```bash
-npm run test
+yarn run test
 ```
 
 # Lint
@@ -18,5 +20,11 @@ npm run test
 Article used: https://codechips.me/eslint-svelte-typescript/
 
 ```bash
-npm run lint
+yarn run lint
+```
+
+# Storybook
+
+```bash
+yarn run storybook
 ```
