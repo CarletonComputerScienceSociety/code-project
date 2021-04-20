@@ -1,1 +1,2 @@
 *.json linguist-language=Svelte
+*.js linguist-language=TypeScript
