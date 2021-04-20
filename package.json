@@ -6,7 +6,8 @@
     "dev": "rollup -c -w",
     "start": "sirv public",
     "validate": "svelte-check",
-    "lint": "eslint --fix './src/**/*.{js,ts,svelte}'",
+    "lint": "eslint './src/**/*.{js,ts,svelte}'",
+    "lint:fix": "eslint --fix './src/**/*.{js,ts,svelte}'",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
