@@ -1,16 +1,15 @@
 <script>
     import { Meta, Template, Story } from '@storybook/addon-svelte-csf'
-    import Navbar from './Navbar.svelte'
+    import Home from './Home.svelte'
 </script>
 
-
 <Meta
-    title="Example/Navbar"
-    component={Navbar}
+    title="Example/Home"
+    component={Home}
 />
 
 <Template>
-    <Navbar/>
+    <Home/>
 </Template>
 
 <Story name="Base"/>

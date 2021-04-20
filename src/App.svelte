@@ -1,31 +1,7 @@
 <script lang="ts">
-	import { Button, HeaderAnimation } from './components'
+	import { Navbar } from './components'
+	import { Home } from './pages'
 </script>
 
-<main>
-	<div class="header-wrap">
-		<Button label="Questions"/>
-		<HeaderAnimation/>
-	</div>
-</main>
-
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-
-	.header-wrap {
-		display:flex;
-		justify-content: space-evenly;
-		align-items: center;
-	}
-</style>
+<Navbar/>
+<Home/>
