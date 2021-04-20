@@ -3,7 +3,6 @@
     import Button from './Button.svelte'
 </script>
 
-
 <Meta
     title="Example/Button"
     component={Button}
@@ -18,14 +17,14 @@
 </Template>
 
 <Story
-    name="Button - Questions"
+    name="Questions"
     args={{
         label: 'Questions'
     }}
 />
 
 <Story
-    name="Button - Score"
+    name="Score"
     args={{
         label: 'Score'
     }}
