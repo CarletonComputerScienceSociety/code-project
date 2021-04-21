@@ -10,24 +10,29 @@
 <style>
     .header-wrap {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        width: 80%;
+        width: 70rem;
+        margin: 2rem;
     }
 
     .left {
-        flex: 0 0 40%;
+        margin: 1rem;
     }
 
     .right {
-        flex: 0 0 30%;
+        margin: 1rem;
     }
 
-    @media only screen and (max-width: 760px) {
+    @media only screen and (max-width: 970px) {
         .header-wrap {
             width: 95%;
             flex-direction: column;
-            height: 60vh;
+            height: fit-content;
+        }
+
+        .right {
+            margin-top: 3rem;
         }
     }
 </style>
