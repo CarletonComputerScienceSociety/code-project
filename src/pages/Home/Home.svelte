@@ -1,12 +1,10 @@
 <script lang="ts">
-	import { Button, Footer, HeaderAnimation } from '../../components'
+    import { Footer, Header } from '../../components'
 </script>
 
 <div class="home-page">
-	<div class="header-wrap">
-		<Button label="Questions"/>
-		<HeaderAnimation/>
-	</div>
+    <div></div>
+	<div class="header-center"><Header/></div>
 	<Footer/>
 </div>
 
@@ -18,9 +16,8 @@
         min-height: 100vh;
     }
 
-    .header-wrap {
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-    }  
+    .header-center {
+        display: flex;
+        justify-content: center;
+    }
 </style>
