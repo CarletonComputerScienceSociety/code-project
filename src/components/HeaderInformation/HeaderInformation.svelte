@@ -20,6 +20,7 @@
     .header-information {
         display: flex;
         flex-direction: column;
+        width: fit-content;
     }
 
     .title-main {
@@ -27,7 +28,7 @@
         font-weight: bold;
         font-family: 'Nunito', sans-serif;
         margin: 0;
-        width: fit-content;
+        white-space: nowrap;
     }
 
     .title-top {
@@ -42,6 +43,7 @@
         font-size: 1.3rem;
         font-family: 'Nunito', sans-serif;
         margin-top: 1.2rem;
+        width: 30rem;
     }
 
     .header-buttons {

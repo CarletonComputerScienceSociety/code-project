@@ -3,7 +3,7 @@
 </script>
 
 <div class="home-page">
-    <div></div>
+    <div class="navbar-spacing"></div>
 	<div class="header-center"><Header/></div>
 	<Footer/>
 </div>
@@ -19,5 +19,9 @@
     .header-center {
         display: flex;
         justify-content: center;
+    }
+
+    .navbar-spacing {
+        min-height: 4rem;
     }
 </style>
