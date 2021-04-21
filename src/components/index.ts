@@ -1,4 +1,7 @@
 export { Button } from './Button'
+export { ButtonInverse } from './ButtonInverse'
 export { Footer } from './Footer'
+export { Header } from './Header'
 export { HeaderAnimation } from './HeaderAnimation'
+export { HeaderInformation } from './HeaderInformation'
 export { Navbar } from './Navbar'
