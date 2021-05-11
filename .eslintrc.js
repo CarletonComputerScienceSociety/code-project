@@ -26,6 +26,7 @@ module.exports = {
   plugins: ['svelte3', '@typescript-eslint'],
   rules: {
     'no-multiple-empty-lines': 'off',
-    'no-undef': 'off'
+    'no-undef': 'off',
+    'no-use-before-define': 'off'
   }
 }

@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { link } from 'svelte-spa-router'
     import { Button, ButtonInverse } from '../../components'
 </script>
 
@@ -9,7 +10,7 @@
         In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.
     </div>
     <div class="header-buttons">
-        <Button label="Questions"/>
+        <a href="/question" use:link><Button label="Questions"/></a>
         <span class="button-spacing">
             <ButtonInverse label="About"/>
         </span>
@@ -53,6 +54,6 @@
     }
 
     .button-spacing {
-       margin-left: 1rem; 
+       margin-left: 1rem;
     }
 </style>
