@@ -1,27 +1,22 @@
 <script lang="ts">
-    import { Footer, Header } from '../../components'
+    import { Header } from '../../components'
 </script>
 
 <div class="home-page">
-    <div class="navbar-spacing"></div>
 	<div class="header-center"><Header/></div>
-	<Footer/>
 </div>
 
 <style>
     .home-page {
         display:flex;
         flex-direction: column;
-        justify-content: space-between;
-        min-height: 100vh;
+        justify-content: center;
+        min-height: 95vh;
+        align-items: center;
     }
 
     .header-center {
         display: flex;
         justify-content: center;
-    }
-
-    .navbar-spacing {
-        min-height: 4rem;
     }
 </style>
