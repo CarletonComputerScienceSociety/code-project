@@ -1,5 +1,5 @@
 <script>
-    import {link} from 'svelte-spa-router';
+    import { link } from 'svelte-spa-router'
 </script>
 
 <div class="navbar">
