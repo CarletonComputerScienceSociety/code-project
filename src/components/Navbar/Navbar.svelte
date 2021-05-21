@@ -10,7 +10,7 @@
 </div>
 
 <style>
-    .navbar{
+    .navbar {
         position: fixed;
         width: 100%;
         min-height: 4rem;
