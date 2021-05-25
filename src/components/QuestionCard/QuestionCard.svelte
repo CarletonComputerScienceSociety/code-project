@@ -1,15 +1,7 @@
 <script lang="ts">
-    import { createEventDispatcher } from 'svelte'
-
     export let level: number
     export let title: string
     export let description: string
-
-    const dispatch = createEventDispatcher()
-
-    const onClick = (event) => {
-      dispatch('click', event)
-    }
 </script>
 
 <div class="question_button">
