@@ -7,6 +7,13 @@
 <Meta
     title="Example/QuestionCard"
     component={QuestionCard}
+    argTypes={{
+        level: {
+            control: { type: 'number', min: 1, max: 3, step: 1 }
+        },
+        title: { control: 'text' },
+        description: { control: 'text' }
+    }}
 />
 
 <Template let:args>
