@@ -24,14 +24,14 @@
     .question_button{
         font-family: 'Roboto', sans-serif; 
         justify-content: center;
-        height: 230px;
-        width: 350px;
+        height: 14.375rem;
+        width: 21.875rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 1.5%;
     }
 
     .question_content{
-        padding: 15px 20px 20px 20px;
+        padding: 0.938rem 1.25rem 1.25rem 1.25rem;
     }
 
     .truncated_text{
