@@ -16,6 +16,23 @@
 </Template>
 
 <Story
-    name="Questions"
+    name="Neutral Question"
+    args={{
+        cssClass: ''
+    }}
+/>
+
+<Story
+    name="Wrong Answer"
+    args={{
+        cssClass: 'error-input'
+    }}
+/>
+
+<Story
+    name="Right Answer"
+    args={{
+        cssClass: 'correct-input'
+    }}
 />
 

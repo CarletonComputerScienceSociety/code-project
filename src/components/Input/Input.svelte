@@ -1,10 +1,11 @@
 <script lang="ts">
     export let placeholder: string
-
+    export let id: string
+    export let cssClass: string
 
 </script>
 
-<input type="text" placeholder="{placeholder}">
+<input id="{id}" type="text" placeholder="{placeholder}" class="{cssClass}">
 
 <style>
     input{
@@ -20,5 +21,13 @@
     }
     input:focus{
         box-shadow: 0px 1px #2782FF !important;
+    }
+
+    .error-input{
+        box-shadow: 0px 1px red;
+    }
+
+    .correct-input{
+        box-shadow: 0px 1px green;
     }
 </style>
