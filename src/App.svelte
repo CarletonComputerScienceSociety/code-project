@@ -6,7 +6,7 @@
 	const routes = {
 	  '/': Home,
 	  '/about': About,
-	  '/question': Question,
+	  '/questions': Question,
 	  '/volunteer': Volunteer,
 	  '*': NotFound
 	}
