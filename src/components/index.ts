@@ -1,4 +1,5 @@
 export { Button } from './Button'
+export { Input } from './Input'
 export { ButtonInverse } from './ButtonInverse'
 export { Footer } from './Footer'
 export { Header } from './Header'

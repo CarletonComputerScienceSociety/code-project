@@ -1,6 +1,5 @@
 <script lang="ts">
-    import { Button } from '../../components'
-    import { Input } from '../../components/Input'
+    import { Button, Input } from '../../components'
     export let cssClass: string
 
 </script>
