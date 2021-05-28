@@ -1,5 +1,5 @@
 <script lang="ts">
-import { QuestionGrid } from '../../components'
+import { QuestionsGrid } from '../../components'
 //Questions will be retrieved from core and exported here, dummy data is here for now
 export let currentQuestions = [
     {
@@ -50,9 +50,9 @@ export let pastQuestions = [
 
 <div style="min-height: 4rem"></div>
 <h1>Current questions</h1>
-<QuestionGrid questions = {currentQuestions}/>
+<QuestionsGrid questions = {currentQuestions}/>
 <h1>Past questions</h1>
-<QuestionGrid questions = {pastQuestions}/>
+<QuestionsGrid questions = {pastQuestions}/>
 
 <style>
     h1{
