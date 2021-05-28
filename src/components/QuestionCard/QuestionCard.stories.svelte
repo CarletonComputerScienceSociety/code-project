@@ -1,6 +1,6 @@
 <script>
     import { Meta, Template, Story } from '@storybook/addon-svelte-csf'
-    import QuestionCard from '../../components'
+    import QuestionCard from './QuestionCard.svelte'
 </script>
 
 
