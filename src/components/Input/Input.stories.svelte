@@ -6,9 +6,6 @@
 <Meta
     title="Example/Input"
     component={Input}
-    argTypes={{
-        label: { control: 'text' }
-    }}
 />
 
 <Template let:args>
