@@ -1,9 +1,9 @@
 <script lang="ts">
    // export let level: number
-    export let title: string
-    export let description: string
-    export let imgSrc: string
-    export let imgAlt: string
+   export let title: string
+   export let description: string
+   export let imgSrc: string
+   export let imgAlt: string
 </script>
 <div id="question">
     <h1>{title}</h1>

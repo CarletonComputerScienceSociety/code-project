@@ -11,7 +11,7 @@
         title: { control: 'text' },
         description: { control: 'text' },
         imgSrc: { control: 'text' },
-        imgAlt: { control: 'text' },
+        imgAlt: { control: 'text' }
     }}
 />
 
