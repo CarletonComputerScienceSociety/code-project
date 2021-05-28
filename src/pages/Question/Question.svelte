@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Router from 'svelte-spa-router'
-    import { QuestionCard } from '../../components'
+	// import Router from 'svelte-spa-router'
+import { QuestionCard } from '../../components'
 </script>
 
 
