@@ -1,13 +1,7 @@
 <script lang="ts">
 import QuestionCard from '../QuestionCard/QuestionCard.svelte'
 
-export let questions = [
-  {
-    level: 1,
-    title: 'Title',
-    description: 'Description'
-  }
-]
+export let questions = []
 
 </script>
 
