@@ -3,11 +3,11 @@
     import { getQuestions } from '../../data'
     import { onMount } from 'svelte'
 
-    let data = []
+    let questions = []
 
-onMount(async () => {
-      data = await getQuestions()
-      console.log(data)
+    onMount(async () => {
+      questions = await getQuestions()
+      console.log(questions)
     })
 </script>
 
