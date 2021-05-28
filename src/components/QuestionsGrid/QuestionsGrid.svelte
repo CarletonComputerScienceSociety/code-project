@@ -2,18 +2,18 @@
 import QuestionCard from '../QuestionCard/QuestionCard.svelte'
 
 export let questions = [
-    {
-        level: 1,
-        title: "Title",
-        description: "Description"
-    }
+  {
+    level: 1,
+    title: 'Title',
+    description: 'Description'
+  }
 ]
 
 </script>
 
 <div class="questions_grid">
     {#each questions as question}
-    <QuestionCard level={question.level} title={question.title} description={question.description}/>
+        <QuestionCard level={question.level} title={question.title} description={question.description}/>
     {/each}
 </div>
 
