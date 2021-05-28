@@ -1,39 +1,61 @@
 <script lang="ts">
-	// import Router from 'svelte-spa-router'
-import { QuestionCard } from '../../components'
+import { QuestionGrid } from '../../components'
+//Questions will be retrieved from core and exported here, dummy data is here for now
+export let currentQuestions = [
+    {
+        level: 1,
+        title: "Hello world",
+        description: "null"
+    },
+    {
+        level: 2,
+        title: "Hello world",
+        description: "null"
+    },
+    {
+        level: 3,
+        title: "Hello world",
+        description: "null"
+    },
+    {
+        level: 3,
+        title: "Hello world",
+        description: "null"
+    },
+]
+export let pastQuestions = [
+    {
+        level: 1,
+        title: "Good night",
+        description: "null"
+    },
+    {
+        level: 2,
+        title: "Good night",
+        description: "null"
+    },
+    {
+        level: 3,
+        title: "Good night",
+        description: "null"
+    },
+    {
+        level: 3,
+        title: "Good night",
+        description: "null"
+    },
+]
 </script>
 
 
 <div style="min-height: 4rem"></div>
 <h1>Current questions</h1>
-<div class="questions_grid">
-    <QuestionCard level = {1} title='Question title' description='do hello world'/>
-    <QuestionCard level = {2} title='Question title' description='do hello world'/>
-    <QuestionCard level = {3} title='Question title' description='do hello world'/>
-    <QuestionCard level = {3} title='Question title' description='do hello world'/>
-</div>
+<QuestionGrid questions = {currentQuestions}/>
 <h1>Past questions</h1>
-<div class="questions_grid">
-    <QuestionCard level = {1} title='Question title' description='do hello world'/>
-    <QuestionCard level = {2} title='Question title' description='do hello world'/>
-    <QuestionCard level = {3} title='Question title' description='do hello world'/>
-    <QuestionCard level = {3} title='Question title' description='do hello world'/>
-    <QuestionCard level = {1} title='Question title' description='do hello world'/>
-    <QuestionCard level = {2} title='Question title' description='do hello world'/>
-    <QuestionCard level = {3} title='Question title' description='do hello world'/>
-    <QuestionCard level = {3} title='Question title' description='do hello world'/>
-</div>
+<QuestionGrid questions = {pastQuestions}/>
 
 <style>
     h1{
         padding: 2rem !important;
-    }
-
-    .questions_grid{
-        display: flex;
-        justify-content: center;
-        column-gap: 6rem;
-        row-gap: 2rem;
-        flex-wrap: wrap;
     }
 </style>
