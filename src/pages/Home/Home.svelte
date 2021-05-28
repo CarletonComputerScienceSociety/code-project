@@ -1,5 +1,14 @@
 <script lang="ts">
     import { Header } from '../../components'
+    import { getQuestions } from '../../data'
+    import { onMount } from 'svelte'
+
+    let data = []
+
+onMount(async () => {
+      data = await getQuestions()
+      console.log(data)
+    })
 </script>
 
 <div class="home-page">
