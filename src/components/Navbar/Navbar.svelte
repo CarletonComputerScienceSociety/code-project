@@ -4,7 +4,7 @@
 
 <div class="navbar">
     <a href="/" use:link class="navbar-item">Home</a>
-    <a href="/question" use:link class="navbar-item">Questions</a>
+    <a href="/questions" use:link class="navbar-item">Questions</a>
     <a href="/about" use:link class="navbar-item">About</a>
     <a href="/volunteer" use:link class="navbar-item">Volunteer</a>
 </div>
