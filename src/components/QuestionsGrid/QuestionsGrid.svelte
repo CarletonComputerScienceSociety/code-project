@@ -1,7 +1,6 @@
 <script lang="ts">
     import { QuestionCard } from '../../components'
     import { link } from 'svelte-spa-router'
-import { mount_component } from 'svelte/internal'
 
     export let questions = []
 </script>
