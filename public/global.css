@@ -4,6 +4,10 @@ html, body {
 	height: 100%;
 	padding: 0rem;
 	margin: 0rem;
+
+	/* Global Variables */
+	--page-width: 1150px;
+	--test: black;
 }
 
 body {
@@ -33,9 +37,9 @@ label {
 input, button, select, textarea {
 	font-family: inherit;
 	font-size: inherit;
-	-webkit-padding: 0.4em 0;
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
+	-webkit-padding: 0.4rem 0;
+	padding: 0.4rem;
+	margin: 0 0 0.5rem 0;
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	border-radius: 2px;

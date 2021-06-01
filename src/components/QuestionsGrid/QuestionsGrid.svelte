@@ -1,12 +1,12 @@
 <script lang="ts">
-import QuestionCard from '../QuestionCard/QuestionCard.svelte'
-import { link } from 'svelte-spa-router'
+    import { QuestionCard } from '../../components'
+    import { link } from 'svelte-spa-router'
 
-export let questions = []
-
+    export let questions = []
 </script>
 
-<div class="questions_grid">
+
+<div class="questions-grid">
     {#each questions as question}
         <a href={'/question/' + question.id} use:link>
             <QuestionCard level={question.level} title={question.title} description={question.description}/>
@@ -15,11 +15,10 @@ export let questions = []
 </div>
 
 <style>
-    .questions_grid {
+    .questions-grid {
         display: flex;
-        justify-content: center;
-        column-gap: 6rem;
-        row-gap: 2rem;
+        column-gap: 3rem;
+        row-gap: 3rem;
         flex-wrap: wrap;
     }
 
