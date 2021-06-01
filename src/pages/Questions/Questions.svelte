@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { QuestionsGrid } from '../../components'
+  import { QuestionsGridSection } from '../../components'
   import { getCurrentQuestions, getExpiredQuestions } from '../../data'
   import { onMount } from 'svelte'
 
@@ -12,16 +12,18 @@
   })
 </script>
 
-
-<div style="min-height: 4rem"></div>
-<h1>Current questions</h1>
-<QuestionsGrid questions = {currentQuestions}/>
-<h1>Past questions</h1>
-<QuestionsGrid questions = {expiredQuestions}/>
-<br><br><br>
+<div class="questions-page">
+  <QuestionsGridSection label="Current Questions" questions = {currentQuestions}/>
+  <QuestionsGridSection label="Past Questions" questions = {expiredQuestions}/>
+</div>
 
 <style>
-    h1{
-        padding: 2rem !important;
-    }
+  .questions-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+  }
 </style>

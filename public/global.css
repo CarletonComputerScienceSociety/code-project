@@ -4,6 +4,10 @@ html, body {
 	height: 100%;
 	padding: 0rem;
 	margin: 0rem;
+
+	/* Global Variables */
+	--page-width: 1150px;
+	--test: black;
 }
 
 body {
