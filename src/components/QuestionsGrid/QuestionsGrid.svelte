@@ -24,6 +24,7 @@
         column-gap: 3rem;
         row-gap: 3rem;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     a {
