@@ -20,6 +20,6 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: var(--page-width);
+        width: var(--page-width);
     }
 </style>
