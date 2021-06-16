@@ -1,7 +1,7 @@
 import { Question } from '../../types'
 import { getQuestionsExample } from '../getQuestions'
 
-const IS_PROD = globalThis.__IS_PROD__;
+const IS_PROD = globalThis.__IS_PROD__
 
 const getQuestion = async (questionId: number): Promise<Question> => {
   // eslint-disable-next-line no-constant-condition
