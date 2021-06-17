@@ -10,7 +10,7 @@
             imgAlt="Graph representing stuff."/>
     </div>
     <div id="inputArea">
-        <QuestionAnswer/>
+        <QuestionAnswer cssClass=""/>
     </div>
 </main>
 <style>
