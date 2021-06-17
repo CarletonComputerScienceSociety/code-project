@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let level: number
+    export let difficulty: string
     export let title: string
     export let description: string
 </script>
@@ -7,13 +7,7 @@
 <div class="question_button">
     <div class="question_content">
         <span style="line-height: 0px">
-            {#if level === 1}
-            <h5 style="color: #28a74c">Basic</h5>
-            {:else if level === 2}
-            <h5 style="color: #0080ff">Intermediate</h5>
-            {:else if level === 3}
-            <h5 style="color: #f54425">Challenging</h5>
-            {/if}
+            <h5 class={difficulty}>{difficulty}</h5>
             <h3>{title}</h3>
         </span>
         <span class="truncated_text">{description}</span>
@@ -39,5 +33,14 @@
         -webkit-line-clamp: 7;
         -webkit-box-orient: vertical;
         overflow: hidden;
+    }
+    .Basic{
+        color: #28a74c;
+    }
+    .Intermediate{
+        color: #0080ff
+    }
+    .Challenging{
+        color: #f54425;
     }
 </style>
