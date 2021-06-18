@@ -10,7 +10,7 @@
         In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.
     </div>
     <div class="header-buttons">
-        <a href="/question" use:link><Button label="Questions"/></a>
+        <a href="/questions" use:link><Button label="Questions"/></a>
         <span class="button-spacing">
             <ButtonInverse label="About"/>
         </span>
