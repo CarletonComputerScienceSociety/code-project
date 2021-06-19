@@ -30,10 +30,10 @@ const getCurrentQuestions = async (): Promise<Question[]> => {
     allQuestions.forEach(q => {
       const today = Date.now()
       const expirationDate = new Date(q.expirationDate).getTime()
-      if(expirationDate >= today) {
+      if (expirationDate >= today) {
         currentQuestions.push(q)
       }
-    });
+    })
     return currentQuestions
   }
 }
@@ -53,12 +53,12 @@ const getExpiredQuestions = async (): Promise<Question[]> => {
     allQuestions.forEach(q => {
       const today = Date.now()
       const expirationDate = new Date(q.expirationDate).getTime()
-      if(expirationDate < today) {
+      if (expirationDate < today) {
         expiredQuestions.push(q)
       }
-    });
+    })
     return expiredQuestions
   }
-};
+}
 
 export { getQuestions, getCurrentQuestions, getExpiredQuestions }
