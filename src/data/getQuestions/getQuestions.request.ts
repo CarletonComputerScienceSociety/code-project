@@ -25,19 +25,18 @@ const getCurrentQuestions = async (): Promise<Question[]> => {
       }
     }).then((response) => response.json())
   } else {
-    let allQuestions = getQuestionsExample;
-    let currentQuestions = [];
+    const allQuestions = getQuestionsExample
+    const currentQuestions = []
     allQuestions.forEach(q => {
-
-      let today = Date.now()
-      let expirationDate = new Date(q.expirationDate).getTime();
-      if(expirationDate >= today){
-        currentQuestions.push(q);
+      const today = Date.now()
+      const expirationDate = new Date(q.expirationDate).getTime()
+      if(expirationDate >= today) {
+        currentQuestions.push(q)
       }
     });
-    return currentQuestions;
+    return currentQuestions
   }
-};
+}
 
 const getExpiredQuestions = async (): Promise<Question[]> => {
   // eslint-disable-next-line no-constant-condition
@@ -49,16 +48,16 @@ const getExpiredQuestions = async (): Promise<Question[]> => {
       }
     }).then((response) => response.json())
   } else {
-    let allQuestions = getQuestionsExample;
-    let expiredQuestions = [];
+    const allQuestions = getQuestionsExample
+    const expiredQuestions = []
     allQuestions.forEach(q => {
-      let today = Date.now();
-      let expirationDate = new Date(q.expirationDate).getTime();
-      if(expirationDate < today){
-        expiredQuestions.push(q);
+      const today = Date.now()
+      const expirationDate = new Date(q.expirationDate).getTime()
+      if(expirationDate < today) {
+        expiredQuestions.push(q)
       }
     });
-    return expiredQuestions;
+    return expiredQuestions
   }
 };
 

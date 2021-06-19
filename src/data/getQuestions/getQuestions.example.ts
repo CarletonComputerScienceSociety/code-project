@@ -10,7 +10,7 @@ const getQuestionsExample: Question[] = [
     categories: [],
     expirationDate: '2022-06-29',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const getQuestionsExample: Question[] = [
     categories: [],
     expirationDate: '2021-07-01',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const getQuestionsExample: Question[] = [
     categories: [],
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ const getQuestionsExample: Question[] = [
     body: 'This is a question body',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ const getQuestionsExample: Question[] = [
     body: 'This is another body.',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ const getQuestionsExample: Question[] = [
     body: 'You can also call this the longer version of a question.',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 9,
@@ -90,7 +90,7 @@ const getQuestionsExample: Question[] = [
     body: 'Explaining what good night means.',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 10,
@@ -100,7 +100,7 @@ const getQuestionsExample: Question[] = [
     body: 'This question is intermediate',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 11,
@@ -110,7 +110,7 @@ const getQuestionsExample: Question[] = [
     body: 'Challenging question, eh?',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   },
   {
     id: 12,
@@ -120,7 +120,7 @@ const getQuestionsExample: Question[] = [
     body: 'Also a challenging one.',
     expirationDate: '2021-07-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    releaseDate: '2021-04-30'
   }
 ]
 
