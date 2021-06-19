@@ -12,4 +12,5 @@ export interface Question {
     expirationDate: string;
     difficulty: string;
     categories: Category[];
+    answer?: string;
 }

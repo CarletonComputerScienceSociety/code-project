@@ -1,7 +1,7 @@
 <script lang="ts">
     export let difficulty: string
     export let title: string
-    export let description: string
+    export let body: string
 </script>
 
 <div class="question_button">
@@ -10,7 +10,7 @@
             <h5 class={difficulty}>{difficulty}</h5>
             <h3>{title}</h3>
         </span>
-        <span class="truncated_text">{description}</span>
+        <span class="truncated_text">{body}</span>
     </div>
   </div>
 

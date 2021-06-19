@@ -1,4 +1,4 @@
-import { Question } from '../../types'
+import type { Question } from '../../types'
 import { getQuestionsExample } from '../getQuestions'
 
 const getQuestion = async (questionId: number): Promise<Question> => {

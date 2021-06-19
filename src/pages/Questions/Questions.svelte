@@ -3,12 +3,12 @@
   import { getCurrentQuestions, getExpiredQuestions } from '../../data'
   import { onMount } from 'svelte'
 
-  let currentQuestions = []
-  let expiredQuestions = []
+  let currentQuestions = [];
+  let expiredQuestions = [];
 
   onMount(async () => {
-    currentQuestions = await getCurrentQuestions()
-    expiredQuestions = await getExpiredQuestions()
+    currentQuestions = await getCurrentQuestions();
+    expiredQuestions = await getExpiredQuestions();
   })
 </script>
 

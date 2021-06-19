@@ -1,7 +1,7 @@
 <script lang="ts">
    // export let level: number
    export let title: string
-   export let description: string
+   export let body: string
    export let imgSrc: string
    export let imgAlt: string
 </script>
@@ -10,7 +10,7 @@
     <div id="tags">
         <!-- area for tags/badges -->
     </div>
-    <p>{description}</p>
+    <p>{body}</p>
     {#if imgSrc}
         <img src="{imgSrc}" alt="{imgAlt}"/>
     {/if}

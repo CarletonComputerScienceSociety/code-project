@@ -11,7 +11,7 @@
       id: -1,
       body: 'awdawd',
       categories: [],
-      difficulty: 'e',
+      difficulty: 'Basic',
       expirationDate: '2021-05-31',
       format: 't',
       releaseDate: '2021-04-30',
@@ -28,7 +28,7 @@
     <div id="question">
         <MainQuestion
             title={question.title}
-            description={question.body}
+            body={question.body}
             imgSrc="https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png"
             imgAlt="Graph representing stuff."/>
     </div>

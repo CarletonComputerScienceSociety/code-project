@@ -12,7 +12,7 @@
     {:else}
         {#each questions as question}
             <a href={'/question/' + question.id} use:link>
-                <QuestionCard level={question.level} title={question.title} description={question.description}/>
+                <QuestionCard difficulty={question.difficulty} title={question.title} body={question.body}/>
             </a>
         {/each}
     {/if}
