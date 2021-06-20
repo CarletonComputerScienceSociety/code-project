@@ -1,5 +1,5 @@
 export {}
 
 declare global {
-    var __IS_PROD__:string
+    let __IS_PROD__:string
 }
