@@ -10,7 +10,10 @@ const getQuestionsExample: Question[] = [
     categories: [],
     expirationDate: '2022-06-29',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "n!",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
+    imgAlt:"Graph representing stuff."
   },
   {
     id: 2,
@@ -20,7 +23,10 @@ const getQuestionsExample: Question[] = [
     categories: [],
     expirationDate: '2021-07-01',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "2020",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
+    imgAlt:"Graph representing stuff."
   },
   {
     id: 3,
@@ -30,7 +36,8 @@ const getQuestionsExample: Question[] = [
     categories: [],
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "No"
   },
   {
     id: 4,
@@ -40,7 +47,10 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    title: 'P1: Hello World'
+    title: 'P1: Hello World',
+    answer: "Yes",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
+    imgAlt:"Graph representing stuff."
   },
   {
     id: 5,
@@ -50,7 +60,10 @@ const getQuestionsExample: Question[] = [
     body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "Lorem ipsum",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
+    imgAlt:"Graph representing stuff."
   },
   {
     id: 6,
@@ -60,7 +73,8 @@ const getQuestionsExample: Question[] = [
     body: 'This is a question body',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "Right"
   },
   {
     id: 7,
@@ -70,7 +84,8 @@ const getQuestionsExample: Question[] = [
     body: 'This is another body.',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "yo"
   },
   {
     id: 8,
@@ -80,7 +95,10 @@ const getQuestionsExample: Question[] = [
     body: 'You can also call this the longer version of a question.',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "this is an answer",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
+    imgAlt:"Graph representing stuff."
   },
   {
     id: 9,
@@ -90,7 +108,8 @@ const getQuestionsExample: Question[] = [
     body: 'Explaining what good night means.',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "This"
   },
   {
     id: 10,
@@ -100,7 +119,10 @@ const getQuestionsExample: Question[] = [
     body: 'This question is intermediate',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "13",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
+    imgAlt:"Graph representing stuff."
   },
   {
     id: 11,
@@ -110,7 +132,8 @@ const getQuestionsExample: Question[] = [
     body: 'Challenging question, eh?',
     expirationDate: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "it"
   },
   {
     id: 12,
@@ -120,7 +143,10 @@ const getQuestionsExample: Question[] = [
     body: 'Also a challenging one.',
     expirationDate: '2021-07-31',
     format: 't',
-    releaseDate: '2021-04-30'
+    releaseDate: '2021-04-30',
+    answer: "This is it",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
+    imgAlt:"Graph representing stuff."
   }
 ]
 

@@ -27,10 +27,7 @@
 <main>
     <div id="question">
         <MainQuestion
-            title={question.title}
-            body={question.body}
-            imgSrc="https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png"
-            imgAlt="Graph representing stuff."/>
+            question = { question }/>
     </div>
     <div id="inputArea">
         <QuestionAnswer cssClass=""/>

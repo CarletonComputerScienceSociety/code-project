@@ -1,18 +1,18 @@
 <script lang="ts">
-   // export let level: number
-   export let title: string
-   export let body: string
-   export let imgSrc: string
-   export let imgAlt: string
+    import type { Question } from '../../types'
+    export let question: Question
 </script>
 <div id="question">
-    <h1>{title}</h1>
+    <h1>{question.title}</h1>
     <div id="tags">
         <!-- area for tags/badges -->
     </div>
-    <p>{body}</p>
-    {#if imgSrc}
-        <img src="{imgSrc}" alt="{imgAlt}"/>
+    <p>{question.body}</p>
+    {#if question.imgSrc}
+        <img src="{question.imgSrc}" alt="{question.imgAlt}"/>
+    {/if}
+    {#if question.answer}
+        <p><span>Answer: </span> {question.answer}</p>
     {/if}
 </div>
 
@@ -24,6 +24,9 @@
     }
     p{
         text-align: left;
+    }
+    span{
+        font-weight: bold;
     }
     img{
         width: 70%;

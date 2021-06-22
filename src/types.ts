@@ -13,4 +13,6 @@ export interface Question {
     difficulty: string;
     categories: Category[];
     answer?: string;
+    imgSrc?: string;
+    imgAlt?: string;
 }
