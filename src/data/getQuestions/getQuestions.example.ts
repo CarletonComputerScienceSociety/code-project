@@ -11,9 +11,9 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2022-06-29',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "n!",
-    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
-    imgAlt:"Graph representing stuff."
+    answer: 'n!',
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
+    imgAlt: 'Graph representing stuff.'
   },
   {
     id: 2,
@@ -24,9 +24,9 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-07-01',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "2020",
-    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
-    imgAlt:"Graph representing stuff."
+    answer: '2020',
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
+    imgAlt: 'Graph representing stuff.'
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "No"
+    answer: 'No'
   },
   {
     id: 4,
@@ -48,9 +48,9 @@ const getQuestionsExample: Question[] = [
     format: 't',
     releaseDate: '2021-04-30',
     title: 'P1: Hello World',
-    answer: "Yes",
-    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
-    imgAlt:"Graph representing stuff."
+    answer: 'Yes',
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
+    imgAlt: 'Graph representing stuff.'
   },
   {
     id: 5,
@@ -61,9 +61,9 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "Lorem ipsum",
-    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
-    imgAlt:"Graph representing stuff."
+    answer: 'Lorem ipsum',
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
+    imgAlt: 'Graph representing stuff.'
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "Right"
+    answer: 'Right'
   },
   {
     id: 7,
@@ -85,7 +85,7 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "yo"
+    answer: 'yo'
   },
   {
     id: 8,
@@ -96,9 +96,9 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "this is an answer",
-    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
-    imgAlt:"Graph representing stuff."
+    answer: 'this is an answer',
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
+    imgAlt: 'Graph representing stuff.'
   },
   {
     id: 9,
@@ -109,7 +109,7 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "This"
+    answer: 'This'
   },
   {
     id: 10,
@@ -120,9 +120,9 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "13",
-    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
-    imgAlt:"Graph representing stuff."
+    answer: '13',
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
+    imgAlt: 'Graph representing stuff.'
   },
   {
     id: 11,
@@ -133,7 +133,7 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-05-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "it"
+    answer: 'it'
   },
   {
     id: 12,
@@ -144,9 +144,9 @@ const getQuestionsExample: Question[] = [
     expirationDate: '2021-07-31',
     format: 't',
     releaseDate: '2021-04-30',
-    answer: "This is it",
-    imgSrc:"https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png",
-    imgAlt:"Graph representing stuff."
+    answer: 'This is it',
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
+    imgAlt: 'Graph representing stuff.'
   }
 ]
 
