@@ -17,8 +17,8 @@ const getCurrentQuestions = async (): Promise<Question[]> => {
       const today = Date.now()
       const expirationDate = new Date(q.expirationDate).getTime()
       if (expirationDate >= today) {
-          delete q.answer
-          currentQuestions.push(q)
+        delete q.answer
+        currentQuestions.push(q)
       }
     })
     return currentQuestions
