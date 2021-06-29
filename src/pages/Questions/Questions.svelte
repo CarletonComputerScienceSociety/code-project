@@ -1,6 +1,6 @@
 <script lang="ts">
   import { QuestionsGridSection } from '../../components'
-  import { getCurrentQuestions, getExpiredQuestions } from '../../data'
+  import { getCurrentQuestions, getExpiredQuestions } from '../../services'
   import { onMount } from 'svelte'
 
   let currentQuestions = []

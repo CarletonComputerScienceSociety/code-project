@@ -1,4 +1,1 @@
-export * from './getCurrentQuestions'
-export * from './getExpiredQuestions'
-export * from './getQuestion'
-export * from './getQuestions'
+export * from './questions'

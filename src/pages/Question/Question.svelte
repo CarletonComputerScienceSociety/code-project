@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { Question } from '../../types'
     import { QuestionAnswer, MainQuestion } from '../../components'
-    import { getQuestion } from '../../data'
+    import { getQuestion } from '../../services'
     import { onMount } from 'svelte'
 
     export let params = {}
@@ -11,7 +11,7 @@
       id: -1,
       body: 'awdawd',
       categories: [],
-      difficulty: 'e',
+      difficulty: 'Basic',
       expirationDate: '2021-05-31',
       format: 't',
       releaseDate: '2021-04-30',
@@ -27,13 +27,10 @@
 <main>
     <div id="question">
         <MainQuestion
-            title={question.title}
-            description={question.body}
-            imgSrc="https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png"
-            imgAlt="Graph representing stuff."/>
+            question = { question }/>
     </div>
     <div id="inputArea">
-        <QuestionAnswer/>
+        <QuestionAnswer cssClass=""/>
     </div>
 </main>
 
