@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { Question } from '../../types'
     import { QuestionAnswer, MainQuestion } from '../../components'
-    import { getQuestion } from '../../data'
+    import { getQuestion } from '../../services'
     import { onMount } from 'svelte'
 
     export let params = {}

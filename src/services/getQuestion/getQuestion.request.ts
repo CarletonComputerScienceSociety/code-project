@@ -1,5 +1,5 @@
 import type { Question } from '../../types'
-import { getQuestionsExample } from '../getQuestions'
+import { QUESTIONS_EXAMPLE } from '../../data'
 
 const getQuestion = async (questionId: number): Promise<Question> => {
   // eslint-disable-next-line no-constant-condition
@@ -11,7 +11,7 @@ const getQuestion = async (questionId: number): Promise<Question> => {
       }
     }).then((response) => response.json())
   } else {
-    return getQuestionsExample.find((question) => (question.id) === questionId)
+    return QUESTIONS_EXAMPLE.find((question) => (question.id) === questionId)
   }
 }
 

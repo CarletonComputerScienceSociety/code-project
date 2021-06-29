@@ -1,5 +1,5 @@
 import type { Question } from '../../types'
-import { getQuestionsExample } from '../getQuestions'
+import { QUESTIONS_EXAMPLE } from '../../data'
 
 const getCurrentQuestions = async (): Promise<Question[]> => {
   // eslint-disable-next-line no-constant-condition
@@ -11,18 +11,20 @@ const getCurrentQuestions = async (): Promise<Question[]> => {
       }
     }).then((response) => response.json())
   } else {
-    const allQuestions = getQuestionsExample
-    const currentQuestions = []
-    allQuestions.forEach(q => {
-      const today = Date.now()
-      const expirationDate = new Date(q.expirationDate).getTime()
-      if (expirationDate >= today) {
-        delete q.answer
-        currentQuestions.push(q)
-      }
-    })
-    return currentQuestions
+    return filterCurrentQuestions(QUESTIONS_EXAMPLE)
   }
 }
 
+const filterCurrentQuestions = (questions) => {
+  const currentQuestions = []
+  questions.forEach(q => {
+    const today = Date.now()
+    const expirationDate = new Date(q.expirationDate).getTime()
+    if (expirationDate >= today) {
+      delete q.answer
+      currentQuestions.push(q)
+    }
+  })
+  return currentQuestions
+}
 export { getCurrentQuestions }

@@ -1,6 +1,6 @@
 import type { Question } from '../../types'
 
-const getQuestionsExample: Question[] = [
+const QUESTIONS_EXAMPLE: Question[] = [
 
   {
     id: 1,
@@ -150,4 +150,4 @@ const getQuestionsExample: Question[] = [
   }
 ]
 
-export { getQuestionsExample }
+export { QUESTIONS_EXAMPLE }

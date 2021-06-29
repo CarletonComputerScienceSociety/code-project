@@ -1,5 +1,5 @@
 import type { Question } from '../../types'
-import { getQuestionsExample } from '../getQuestions'
+import { QUESTIONS_EXAMPLE } from '../../data'
 
 const getQuestions = async (): Promise<Question[]> => {
   // eslint-disable-next-line no-constant-condition
@@ -11,7 +11,7 @@ const getQuestions = async (): Promise<Question[]> => {
       }
     }).then((response) => response.json())
   } else {
-    return getQuestionsExample
+    return QUESTIONS_EXAMPLE
   }
 }
 

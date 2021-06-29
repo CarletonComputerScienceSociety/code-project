@@ -1,5 +1,5 @@
 import type { Question } from '../../types'
-import { getQuestionsExample } from '../getQuestions'
+import { QUESTIONS_EXAMPLE } from '../../data'
 
 const getExpiredQuestions = async (): Promise<Question[]> => {
   // eslint-disable-next-line no-constant-condition
@@ -11,17 +11,20 @@ const getExpiredQuestions = async (): Promise<Question[]> => {
       }
     }).then((response) => response.json())
   } else {
-    const allQuestions = getQuestionsExample
-    const expiredQuestions = []
-    allQuestions.forEach(q => {
-      const today = Date.now()
-      const expirationDate = new Date(q.expirationDate).getTime()
-      if (expirationDate < today) {
-        expiredQuestions.push(q)
-      }
-    })
-    return expiredQuestions
+    return filterExpiredQuestions(QUESTIONS_EXAMPLE)
   }
+}
+
+const filterExpiredQuestions = (questions) => {
+  const expiredQuestions = []
+  questions.forEach(q => {
+    const today = Date.now()
+    const expirationDate = new Date(q.expirationDate).getTime()
+    if (expirationDate < today) {
+      expiredQuestions.push(q)
+    }
+  })
+  return expiredQuestions
 }
 
 export { getExpiredQuestions }
