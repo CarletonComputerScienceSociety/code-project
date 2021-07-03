@@ -1,6 +1,6 @@
 import { getExpiredQuestionsExample } from '../getExpiredQuestions'
 
-const IS_PROD = globalThis.__IS_PROD__
+const IS_PROD = globalThis.IS_PROD
 
 // CHANGE PROMISE TO QUESTION TYPE WHEN LEVEL - DIFFICULTY IS FIXED
 const getExpiredQuestions = async (): Promise<any[]> => {

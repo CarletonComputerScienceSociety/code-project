@@ -1,6 +1,6 @@
 import { getCurrentQuestionsExample } from '../getCurrentQuestions'
 
-const IS_PROD = globalThis.__IS_PROD__
+const IS_PROD = globalThis.IS_PROD
 
 // CHANGE PROMISE TO QUESTION TYPE WHEN LEVEL - DIFFICULTY IS FIXED
 const getCurrentQuestions = async (): Promise<any[]> => {
