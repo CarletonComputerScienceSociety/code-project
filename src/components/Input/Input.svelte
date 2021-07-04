@@ -1,11 +1,17 @@
 <script lang="ts">
-    export let placeholder: string
+    export let placeholder: string = ''
     export let id: string
     export let cssClass: string
+    export let label: string = undefined
+    export let type: string = 'text'
 
 </script>
-
-<input id="{id}" type="text" placeholder="{placeholder}" class="{cssClass}">
+<div>
+    {#if label}
+        <label for="{id}">{label}</label>
+    {/if}
+    <input id="{id}" type="{type}" placeholder="{placeholder}" class="{cssClass}">
+</div>
 
 <style>
     input{
@@ -29,5 +35,10 @@
 
     .correct-input{
         box-shadow: 0px 1px green;
+    }
+    
+    label{
+        font-family: 'Nunito', sans-serif;
+        display: inline;
     }
 </style>

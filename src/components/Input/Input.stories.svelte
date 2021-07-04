@@ -19,3 +19,12 @@
         id: 'response'
     }}
 />
+
+<Story
+    name="Input with Label"
+    args={{
+        label: 'Label: ',
+        placeholder: 'Enter your response here...',
+        id: 'response'
+    }}
+/>

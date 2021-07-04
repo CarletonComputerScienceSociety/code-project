@@ -11,7 +11,7 @@
         <h1>No questions here at the moment. Check back soon!</h1>
     {:else}
         {#each questions as question}
-            <a href={'/question/' + question.id} use:link>
+            <a href={'/questions/' + question.id} use:link>
                 <QuestionCard difficulty={question.difficulty} title={question.title} body={question.body}/>
             </a>
         {/each}
