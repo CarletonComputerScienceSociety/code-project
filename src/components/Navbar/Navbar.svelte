@@ -5,7 +5,7 @@
 <div class="navbar">
     <div class="navbar-inner">
         <a href="/" use:link class="navbar-item">
-            <img alt="logo" class="navbar-image" src="https://i.imgur.com/5LQwz90.png">
+            <img alt="logo" class="navbar-image" src="https://i.imgur.com/glXgXeA.png">
         </a>
         <div class="navbar-items">
             <a href="/questions" use:link class="navbar-item">Questions</a>
@@ -32,7 +32,7 @@
     }
 
     .navbar-image {
-        height: 3.5rem;
+        height: 3rem;
     }
 
     .navbar-items {
