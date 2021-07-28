@@ -12,16 +12,29 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 70rem;
-        margin: 2rem;
+        width: 100%;
+        max-width: 1200px;
+        height: 70vh;
+        padding-left: calc(5% + 9px);
+        padding-right: calc(5% + 9px);
     }
 
     .left {
-        margin: 1rem;
+        height: 100%;
+        width: 100%;
+        max-width: 50vw;
+        display: flex;
+        /*justify-content: center;*/
+        align-items: center;
+        /*background-color: white;*/
+        /*background-color: rgb(45 66 93);*/
+        /*box-shadow: 0 4px 12px -4px rgb(0 0 0 / 5%);
+        border-radius: 0 0 50% 0;*/
     }
 
     .right {
         margin: 1rem;
+        margin: auto;
     }
 
     @media only screen and (max-width: 970px) {
