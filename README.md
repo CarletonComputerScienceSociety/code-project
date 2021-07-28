@@ -1,8 +1,8 @@
-<img src="https://i.imgur.com/glXgXeA.png" width="300px">
-
 <br>
 
-**CODE is a SPA for hosting code challenges. It fetches data from the CORE service.**
+<img src="https://i.imgur.com/glXgXeA.png" width="300px">
+
+**Code is a single page application for hosting code challenges. It fetches data from the [Core](https://github.com/CarletonComputerScienceSociety/core) service.**
 
 <hr>
 
