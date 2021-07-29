@@ -43,7 +43,7 @@
         width: 100%;
         height: 100%;
         min-height: 4rem;
-        max-width: 1200px;
+        max-width: 1150px;
         display: flex;
         justify-content: space-between;
         align-items: center;

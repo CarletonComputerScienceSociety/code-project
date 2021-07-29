@@ -32,7 +32,7 @@
 
     .home-page-wrap {
         margin: 4rem;
-        max-width: 1200px;
+        max-width: 1150px;
     }
 
     .header-center {

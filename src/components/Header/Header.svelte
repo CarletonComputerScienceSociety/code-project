@@ -13,7 +13,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        max-width: 1200px;
+        max-width: 1150px;
         height: 70vh;
         padding-left: calc(5% + 9px);
         padding-right: calc(5% + 9px);
