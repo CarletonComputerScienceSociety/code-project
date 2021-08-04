@@ -1,4 +1,4 @@
-<div class="footer">Carleton Computer Science Society</div>
+<div class="footer">© 2021 Carleton Computer Science Society</div>
 
 <style>
     .footer{

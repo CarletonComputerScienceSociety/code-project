@@ -4,45 +4,60 @@
 
 <div class="navbar">
     <div class="navbar-inner">
-        <a href="/" use:link class="navbar-item">Home</a>
-        <a href="/questions" use:link class="navbar-item">Questions</a>
-        <a href="/about" use:link class="navbar-item">About</a>
-        <a href="/volunteer" use:link class="navbar-item">Volunteer</a>
+        <a href="/" use:link class="navbar-item">
+            <img alt="logo" class="navbar-image" src="https://i.imgur.com/glXgXeA.png">
+        </a>
+        <div class="navbar-items">
+            <a href="/questions" use:link class="navbar-item">Questions</a>
+            <a href="/about" use:link class="navbar-item">About</a>
+            <a href="/volunteer" use:link class="navbar-item">Volunteer</a>
+        </div>
     </div>
 </div>
 
 <style>
     .navbar {
-        position: fixed;
+        position: sticky;
         top: 0;
         width: 100%;
         min-height: 4rem;
-        box-shadow: 0 2px 4px 1px rgb(0 0 0 / 20%);
         z-index: 10;
-        background-color: #4285f4ff;
+        background-color: white; /*#4285f4ff;*/
         color:white;
         font-weight: 500;
         display: flex;
         justify-content: center;
         align-items: center;
+        box-shadow: 0 4px 12px -4px rgb(0 0 0 / 5%);
     }
 
+    .navbar-image {
+        height: 3rem;
+    }
+
+    .navbar-items {
+        display: flex;
+        gap: 3rem;
+    }
     .navbar-inner {
-        width: var(--page-width);
+        width: 100%;
         height: 100%;
         min-height: 4rem;
+        max-width: 1150px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-left: calc(5% + 9px);
+        padding-right: calc(5% + 9px);
     }
 
     a {
-        color: white;
+        color: rgb(94, 94, 94);
         text-decoration: none;
     }
 
     a:hover {
-        color:white;
+        color:black;
         text-decoration:none;
         cursor:pointer;
     }

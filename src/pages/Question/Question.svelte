@@ -26,8 +26,7 @@
 
 <main>
     <div id="question">
-        <MainQuestion
-            question = { question }/>
+        <MainQuestion question={question}/>
     </div>
     <div id="inputArea">
         <QuestionAnswer cssClass=""/>
@@ -38,6 +37,7 @@
     #question{
         display: flex;
         justify-content: center;
+        min-height: 40rem;
     }
     #inputArea{
         display:flex;

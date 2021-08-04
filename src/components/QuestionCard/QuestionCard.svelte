@@ -16,12 +16,20 @@
 
 <style>
     .question_button{
-        font-family: 'Roboto', sans-serif; 
+        font-family: 'Roboto', sans-serif;
         justify-content: center;
         height: 14.375rem;
         width: 21.875rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 12px -4px rgb(0 0 0 / 20%);
+        transition: box-shadow 0.24s cubic-bezier(0.4, 0, 0.3, 1),
+            background-color 0.24s cubic-bezier(0.4, 0, 0.3, 1),
+            -webkit-box-shadow 0.24s cubic-bezier(0.4, 0, 0.3, 1);
         border-radius: 1.5%;
+        background-color: #fff;
+    }
+
+    .question_button:hover {
+        box-shadow: 0 4px 12px -4px rgb(0 0 0 / 30%);
     }
 
     .question_content{
