@@ -4,13 +4,14 @@
     export let cssClass: string
     export let label: string = undefined
     export let type: string = 'text'
+    export let value: string = ''
 
 </script>
 <div>
     {#if label}
         <label for="{id}">{label}</label>
     {/if}
-    <input id="{id}" type="{type}" placeholder="{placeholder}" class="{cssClass}">
+    <input id="{id}" type="{type}" placeholder="{placeholder}" value="{value}" class="{cssClass}">
 </div>
 
 <style>

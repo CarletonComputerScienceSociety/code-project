@@ -17,14 +17,17 @@
         answer: 'N/A'
     }
 
+    function handlePreview(event){
+      currentQuestion = event.detail.question;
+    }
 
   </script>
   
   <div class="question">
-    <NewQuestionInput />
+    <NewQuestionInput bind:question={currentQuestion}/>
     <h1>Preview: </h1>
     <div id="preview">
-        <MainQuestion question={currentQuestion} />
+        <MainQuestion question={currentQuestion} on:preview={handlePreview} />
     </div>
   </div>
   
