@@ -8,9 +8,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     title: 'Hello world',
     body: 'This is question 1',
     categories: [],
-    expirationDate: '2022-06-29',
+    expiration_date: '2022-06-29',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'n!',
     imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
     imgAlt: 'Graph representing stuff.'
@@ -21,9 +21,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     title: 'Hello world 2',
     body: 'q2',
     categories: [],
-    expirationDate: '2021-07-01',
+    expiration_date: '2021-07-01',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: '2020',
     imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
     imgAlt: 'Graph representing stuff.'
@@ -34,9 +34,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     title: 'Hello world 3',
     body: 'q3',
     categories: [],
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'No'
   },
   {
@@ -44,9 +44,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et metus sed diam aliquam tempus. Duis tincidunt libero dui. Mauris a venenatis lectus. Nullam elementum mi sit amet tincidunt tincidunt. Phasellus egestas turpis ac metus varius mollis. Etiam imperdiet luctus tempor. Praesent odio magna, convallis ac tellus nec, tempus accumsan ipsum. Ut fermentum ligula viverra sodales sagittis. Duis suscipit dui at vulputate sodales. Proin accumsan libero non scelerisque vestibulum. Suspendisse pharetra erat nisi, sed dictum tellus sagittis vitae. Aliquam pellentesque, nisi id facilisis commodo, ante urna scelerisque urna, vel vehicula dolor urna non turpis. Aenean finibus, velit at vestibulum facilisis, enim quam scelerisque ex, eget finibus nisl nisi vitae neque. Aliquam tempor metus velit, sit amet sagittis mauris iaculis ut. Aliquam vitae nibh eros. Ut dolor tellus, pulvinar sed dui vel, facilisis tincidunt erat. Mauris convallis quam nulla, eu dignissim magna molestie vitae. Nunc fringilla hendrerit ipsum, in sagittis metus commodo convallis. Ut lacinia gravida enim, in sagittis metus efficitur vel. Cras tincidunt arcu ullamcorper elit facilisis, pellentesque auctor mauris placerat. In vehicula est ut justo hendrerit pretium. In nunc nibh, iaculis at tortor quis, tincidunt placerat orci. Donec accumsan orci a orci placerat malesuada. Nunc pretium condimentum quam eget vehicula. Sed eleifend accumsan orci. Sed dignissim, justo quis mattis interdum, nisl dui sodales felis, ut consectetur enim ante sed ante. Maecenas sodales dapibus odio id aliquet. Proin dapibus felis quis vehicula pulvinar. Cras et nisl at risus porta dictum ut imperdiet libero. In non blandit nunc. Pellentesque ut dictum lorem. Cras elementum tincidunt arcu vel porta.',
     categories: [],
     difficulty: 'Challenging',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     title: 'P1: Hello World',
     answer: 'Yes',
     imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
@@ -58,9 +58,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     difficulty: 'Basic',
     title: 'Good night',
     body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'Lorem ipsum',
     imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
     imgAlt: 'Graph representing stuff.'
@@ -71,9 +71,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     difficulty: 'Intermediate',
     title: 'Good night',
     body: 'This is a question body',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'Right'
   },
   {
@@ -82,9 +82,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     difficulty: 'Challenging',
     title: 'Good night',
     body: 'This is another body.',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'yo'
   },
   {
@@ -93,9 +93,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     categories: [],
     title: 'Good night',
     body: 'You can also call this the longer version of a question.',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'this is an answer',
     imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
     imgAlt: 'Graph representing stuff.'
@@ -106,9 +106,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     categories: [],
     title: 'Good night',
     body: 'Explaining what good night means.',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'This'
   },
   {
@@ -117,9 +117,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     categories: [],
     title: 'Good night',
     body: 'This question is intermediate',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: '13',
     imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
     imgAlt: 'Graph representing stuff.'
@@ -130,9 +130,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     categories: [],
     title: 'Good night',
     body: 'Challenging question, eh?',
-    expirationDate: '2021-05-31',
+    expiration_date: '2021-05-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'it'
   },
   {
@@ -141,9 +141,9 @@ const QUESTIONS_EXAMPLE: Question[] = [
     categories: [],
     title: 'Good night',
     body: 'Also a challenging one.',
-    expirationDate: '2021-07-31',
+    expiration_date: '2021-07-31',
     format: 't',
-    releaseDate: '2021-04-30',
+    release_date: '2021-04-30',
     answer: 'This is it',
     imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/ef/RD-S_sample_graph.png',
     imgAlt: 'Graph representing stuff.'

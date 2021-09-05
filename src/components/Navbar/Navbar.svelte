@@ -5,19 +5,19 @@
 <div class="navbar">
     <div class="navbar-inner">
         <a href="/" use:link class="navbar-item">
-            <img alt="logo" class="navbar-image" src="https://i.imgur.com/glXgXeA.png">
+            <img alt="logo" class="navbar-image" src="https://i.imgur.com/Kuuu97g.png">
         </a>
-        <div class="navbar-items">
-            <a href="/questions" use:link class="navbar-item">Questions</a>
+        <!--<div class="navbar-items">
             <a href="/about" use:link class="navbar-item">About</a>
-            <a href="/volunteer" use:link class="navbar-item">Volunteer</a>
-        </div>
+            <a href="https://github.com/CarletonComputerScienceSociety/code-project" class="navbar-item">Contribute</a>
+            <a href="https://ccss.carleton.ca/volunteer/" class="navbar-item">Volunteer</a>
+        </div>-->
     </div>
 </div>
 
 <style>
     .navbar {
-        position: sticky;
+        /*position: sticky;*/
         top: 0;
         width: 100%;
         min-height: 4rem;
@@ -28,7 +28,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0 4px 12px -4px rgb(0 0 0 / 5%);
+        /*box-shadow: 0 4px 12px -4px rgb(0 0 0 / 5%);*/
     }
 
     .navbar-image {

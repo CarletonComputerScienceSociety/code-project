@@ -13,6 +13,5 @@
 	}
 </script>
 
-<Navbar/>
 <Router {routes}/>
 <Footer/>

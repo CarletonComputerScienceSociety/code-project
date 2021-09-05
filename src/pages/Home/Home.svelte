@@ -14,7 +14,7 @@
 	<div class="header-center">
         <Header/>
     </div>
-    <div class="home-page-wrap">
+    <div class="questions">
         <QuestionsGrid questions={questions}/>
     </div>
 </div>
@@ -28,19 +28,29 @@
         width: 100%;
         height: fit-content;
         background-color: rgb(252, 252, 252);
+        overflow: hidden;
+        margin-bottom: 2rem;
     }
 
     .home-page-wrap {
-        margin: 4rem;
+        margin: 2rem 4rem;
+        margin-bottom: 4rem;
         max-width: 1150px;
+        margin-top: 0rem;
     }
 
     .header-center {
         display: flex;
         justify-content: center;
         width: 100%;
-        background-image: url("https://cdn.discordapp.com/attachments/422419584893845534/852700077675380756/geometry2.png");
+        margin-top: 2rem;
+        /*background-image: url("https://cdn.discordapp.com/attachments/422419584893845534/852700077675380756/geometry2.png");*/
         animation: slide 40s linear infinite;
+        margin-bottom: 3rem;
+    }
+
+    .questions {
+        margin-bottom: 2rem;
     }
 
     @keyframes slide {
