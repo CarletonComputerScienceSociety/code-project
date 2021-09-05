@@ -16,8 +16,9 @@
         background-color:transparent;
         box-shadow: 0px 1px gray;
         transition: box-shadow 0.3s;
-        margin-bottom: 1rem;
-        width: 40%;
+        margin-bottom: 3rem;
+        width: 100%;
+        max-width: 500px;
     }
     input:focus{
         box-shadow: 0px 1px #2782FF !important;

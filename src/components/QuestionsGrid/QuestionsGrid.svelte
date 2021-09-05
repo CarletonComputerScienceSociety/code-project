@@ -7,16 +7,15 @@
 
 
 <div class="questions-grid">
-    {#if questions.length === 0}
-        <h1>No questions here at the moment. Check back soon!</h1>
-    {:else}
+    {#if questions.length !== 0}
         {#each questions as question}
             <a href={'/question/' + question.id} use:link>
-                <QuestionCard difficulty={question.difficulty} title={question.title} body={question.body}/>
+                <QuestionCard difficulty={question.difficulty} title={question.title} body={question.preview}/>
             </a>
         {/each}
     {/if}
 </div>
+<!--<h2><p>More questions will appear  week!</p></h2>-->
 
 <style>
     .questions-grid {
@@ -36,5 +35,11 @@
         color: inherit;
         text-decoration:none;
         cursor:pointer;
+    }
+
+    h2 {
+        margin: auto;
+        text-align: center;
+        margin-top: 4rem;
     }
 </style>

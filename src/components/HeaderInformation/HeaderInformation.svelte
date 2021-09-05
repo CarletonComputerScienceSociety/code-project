@@ -22,10 +22,13 @@
         display: flex;
         flex-direction: column;
         width: fit-content;
+        background: white;
+        padding: 4rem 3rem;
+        box-shadow: 0 0px 8px 0 rgba(0,0,0,0.07);
     }
 
     .title-main {
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: bold;
         font-family: 'Nunito', sans-serif;
         margin: 0;
@@ -33,7 +36,7 @@
     }
 
     .title-top {
-        font-size: 1.9rem;
+        font-size: 1.4rem;
         font-family: 'Nunito', sans-serif;
         margin: 0;
         margin-bottom: 0.75rem;
@@ -41,7 +44,7 @@
     }
 
     .title-bottom {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-family: 'Nunito', sans-serif;
         margin-top: 1.2rem;
         width: 30rem;

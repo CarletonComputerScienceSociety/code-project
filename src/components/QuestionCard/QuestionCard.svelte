@@ -2,12 +2,18 @@
     export let difficulty: string
     export let title: string
     export let body: string
+
+    const difficultyMap = {
+        easy: "Beginner",
+        medium: "Medium",
+        hard: "Challenging"
+    }
 </script>
 
 <div class="question_button">
     <div class="question_content">
         <span style="line-height: 0px">
-            <h5 class={difficulty}>{difficulty}</h5>
+            <h5 class={difficultyMap[difficulty]}>{difficultyMap[difficulty]}</h5>
             <h3>{title}</h3>
         </span>
         <span class="truncated_text">{body}</span>
@@ -42,10 +48,14 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
-    .Basic{
+
+    h5 {
+        margin-bottom: 1.5rem;
+    }
+    .Beginner{
         color: #28a74c;
     }
-    .Intermediate{
+    .Medium{
         color: #0080ff
     }
     .Challenging{

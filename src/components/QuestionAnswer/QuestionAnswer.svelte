@@ -4,7 +4,9 @@
 
 </script>
 
-<div><Input cssClass={cssClass} id="response" placeholder="Enter your response here..."/><Button label="Submit"/></div>
+<Input cssClass={cssClass} id="response" placeholder="Enter your Carleton email here..."/>
+<Input cssClass={cssClass} id="response" placeholder="Enter your answer here..."/>
+<Button label="Submit"/>
 
 <style>
     div{

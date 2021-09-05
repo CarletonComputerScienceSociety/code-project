@@ -6,10 +6,11 @@ export interface Category {
 export interface Question {
     id: number;
     title: string;
+    preview?: string;
     body: string;
     format: string;
-    releaseDate: string;
-    expirationDate: string;
+    release_date: string;
+    expiration_date: string;
     difficulty: string;
     categories: Category[];
     answer?: string;

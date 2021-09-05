@@ -1,22 +1,32 @@
 <script lang="ts">
-    import { HeaderAnimation, HeaderInformation } from '../../components'
+    import { HeaderAnimation, HeaderInformation, Countdown } from '../../components'
 </script>
 
 <div class="header-wrap">
-    <div class="left"><HeaderInformation/></div>
-    <div class="right"><HeaderAnimation/></div>
+    <!--<div class="left"><HeaderInformation/></div>-->
+    <div class="right">
+        <img class="header-image" src="https://cdn.discordapp.com/attachments/490220076163792896/883220389524803624/okmann.png">
+        <Countdown/>
+    </div>
+    <div class="right" style="margin-top: 2rem"><HeaderAnimation/></div>
 </div>
 
 <style>
     .header-wrap {
         display: flex;
+
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         max-width: 1150px;
-        height: 70vh;
         padding-left: calc(5% + 9px);
         padding-right: calc(5% + 9px);
+    }
+
+    .header-image {
+        width: 22rem;
+        margin: 1rem auto;
     }
 
     .left {
@@ -33,8 +43,9 @@
     }
 
     .right {
-        margin: 1rem;
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     @media only screen and (max-width: 970px) {
