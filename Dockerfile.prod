@@ -1,0 +1,8 @@
+FROM node:14-buster-slim
+
+COPY . /app
+
+RUN yarn install \
+    && yarn run build
+
+CMD [ "yarn run start" ]
