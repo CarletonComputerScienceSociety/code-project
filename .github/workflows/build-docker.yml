@@ -27,4 +27,4 @@ jobs:
           file: Dockerfile.prod
           push: true
           tags: |
-            ghcr.io/carletoncomputersciencesociety/code-challenge/code-challenge-client:latest
+            ghcr.io/carletoncomputersciencesociety/code-project/code-challenge-svelte:latest
