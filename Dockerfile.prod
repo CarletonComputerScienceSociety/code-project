@@ -6,4 +6,4 @@ COPY . /app
 RUN yarn install \
     && yarn run build
 
-CMD [ "yarn run start" ]
+ENTRYPOINT [ "/app/start-prod.sh" ]
