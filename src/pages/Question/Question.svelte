@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Question } from '../../types'
-    import { Navbar, Input, Button, MainQuestion, CountdownOne } from '../../components'
+    import { Navbar, Input, Button, MainQuestion, CountdownOne, Footer } from '../../components'
     import { getQuestion } from '../../services'
     import { onMount } from 'svelte'
 
@@ -61,7 +61,7 @@
             body: JSON.stringify(s)
         };
 
-        let fetchResponse = await fetch(`http://0.0.0.0:8001/api/codechallenges/submissions/`, settings);
+        let fetchResponse = await fetch(`https://core.carletoncomputersciencesociety.ca/api/codechallenges/submissions/`, settings);
         let data = await fetchResponse.json();
         console.log(data)
         console.log(data.data)
@@ -92,6 +92,7 @@
     Question is not Available.
 </div>
 {/if}
+<Footer/>
 
 <style>
     #question{
@@ -123,6 +124,7 @@
         width: 100%;
         margin: 2rem auto;
         max-width: 1150px;
+        min-height: 100vh;
         /*box-shadow: 0 4px 12px -4px rgb(0 0 0 / 20%);*/
     }
 </style>

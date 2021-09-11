@@ -4,7 +4,7 @@ import { QUESTIONS_EXAMPLE } from '../../data'
 const getExpiredQuestions = async (): Promise<Question[]> => {
   // eslint-disable-next-line no-constant-condition
   if (true) { // ADD ENV VAR TO TELL US TO USE THE REAL BACKEND OR NO
-    return fetch('http://127.0.0.1:8001/api/codechallenges/questions/expired', {
+    return fetch('https://core.carletoncomputersciencesociety.ca/api/codechallenges/questions/expired', {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json'

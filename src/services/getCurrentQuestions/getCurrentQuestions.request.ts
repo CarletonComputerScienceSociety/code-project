@@ -4,7 +4,7 @@ import { QUESTIONS_EXAMPLE } from '../../data'
 const getCurrentQuestions = async (): Promise<Question[]> => {
   // eslint-disable-next-line no-constant-condition
   if (true) { // ADD ENV VAR TO TELL US TO USE THE REAL BACKEND OR NO
-    return fetch('http://127.0.0.1:8001/api/codechallenges/questions/current', {
+    return fetch('https://core.carletoncomputersciencesociety.ca/api/codechallenges/questions/current', {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json'
