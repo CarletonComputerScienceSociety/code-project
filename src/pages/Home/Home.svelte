@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Header, QuestionsGrid } from '../../components'
+    import { Header, QuestionsGrid, Footer } from '../../components'
     import { getQuestions } from '../../services'
     import { onMount } from 'svelte'
 
@@ -18,6 +18,7 @@
         <QuestionsGrid questions={questions}/>
     </div>
 </div>
+<Footer/>
 
 <style type="text/scss">
     .home-page {
@@ -30,6 +31,7 @@
         background-color: rgb(252, 252, 252);
         overflow: hidden;
         margin-bottom: 2rem;
+        min-height: 100vh;
     }
 
     .home-page-wrap {
