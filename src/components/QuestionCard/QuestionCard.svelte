@@ -50,6 +50,10 @@
     }
 
     h5 {
+        margin-bottom: 1.9rem;
+    }
+
+    h3 {
         margin-bottom: 1.5rem;
     }
     .Beginner{

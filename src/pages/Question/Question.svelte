@@ -25,13 +25,24 @@
       // THE ERROR WITH params.id IS BECAUSE WE NEED TO CREATE A TYPE
       question = await getQuestion(parseInt(params.id))
 
-
       let date = new Date(question.expiration_date)
       if (date <= new Date(Date.now())){
           expired = true;
       } else {
           expired = false;
       }
+      setTimeout(function(){
+      let script = document.createElement('script');
+        script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js";
+        document.head.append(script);
+
+        script.onload = () => {
+            MathJax = {
+                tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]},
+                svg: {fontCache: 'global'}
+            };
+	    };
+    }, 2000);
 
     })
 
@@ -70,7 +81,7 @@
         } else if (data.data.correct){
             document.querySelector("#result" + question.id).innerHTML ='<h2 style="color:green">That Answer is Correct!</h2>'
         }else{
-            document.querySelector("#result" + question.id).innerHTML ='<h2 style="color:red">That Answer is incorrect.</h2>'
+            document.querySelector("#result" + question.id).innerHTML ='<h2 style="color:red">That Answer is incorrect. (Attempt: '+ data.data.attempts + ') </h2>'
         }
     }
 </script>
@@ -89,7 +100,7 @@
 </main>
 {:else}
 <div id="question2">
-    Question is not Available.
+    Question is not Available or you need to reload.
 </div>
 {/if}
 <Footer/>
