@@ -9,7 +9,7 @@
     <div id="tags">
         <!-- area for tags/badges -->
     </div>
-    <p class="body">{question.body}</p>
+    <p class="body">{@html question.body}</p>
     {#if question.imgSrc}
         <img src="{question.imgSrc}" alt="{question.imgAlt}"/>
     {/if}
