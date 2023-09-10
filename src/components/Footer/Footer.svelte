@@ -1,4 +1,4 @@
-<div class="footer">© 2022 Carleton Computer Science Society</div>
+<div class="footer">© 2023 Carleton Computer Science Society</div>
 
 <style>
     .footer{
