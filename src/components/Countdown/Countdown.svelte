@@ -1,6 +1,6 @@
 <script lang="ts">
 
-CountDownTimer('9/11/2022 12:00 AM GMT-04:00', 'countdown', 1);
+CountDownTimer('9/10/2023 12:00 AM GMT-04:00', 'countdown', 1);
 // CountDownTimer('9/1/2019 5:35 PM', 'newcountdown');
 
 function CountDownTimer(dt, id, lol)
@@ -20,7 +20,7 @@ function CountDownTimer(dt, id, lol)
 
             clearInterval(timer);
             if(lol == 1){
-                CountDownTimer('9/18/2022 12:00 AM GMT-04:00', 'countdown', -1);
+                CountDownTimer('9/17/2023 12:00 AM GMT-04:00', 'countdown', -1);
             } else {
                 document.getElementById('countdown').innerHTML = '<p>Thank you for participating. Winners will be announced soon!</p>';
             }
